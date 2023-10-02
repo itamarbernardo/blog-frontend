@@ -1,0 +1,15 @@
+// Vitest Snapshot v1
+
+exports[`<HtmlContent /> > should match snapshot 1`] = `
+.c0 {
+  font-size: 1.6rem;
+}
+
+<p
+  class="c0"
+>
+  <b>
+    Children
+  </b>
+</p>
+`;
