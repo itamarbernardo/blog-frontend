@@ -1,0 +1,157 @@
+{
+  "data": {
+    "setting": {
+      "data": {
+        "id": "1",
+        "attributes": {
+          "blogName": "Blog do Itamar",
+          "blogDescription": "Sobre meus aprendizados e Projetos",
+          "logo": {
+            "data": null
+          },
+          "menuLink": [
+            {
+              "id": "1",
+              "link": "https://github.com/itamarbernardo",
+              "text": "GitHub",
+              "newTab": true
+            }
+          ],
+          "text": "Feito com <3, por Itamar Bernardo."
+        }
+      }
+    },
+    "posts": {
+      "data": [
+        {
+          "id": "1",
+          "attributes": {
+            "slug": "previsao-de-preco-de-acoes-na-b3",
+            "title": "Previsão de Preço de Ações na B3",
+            "excerpt": "O trabalho abaixo faz uso de Machine Learn para prever o preço de fechamento de ações na Bolsa de Valores Brasileira",
+            "content": "O trabalho abaixo faz uso de Machine Learn para prever o preço de fechamento de ações na Bolsa de Valores Brasileira. O trabalho abaixo faz uso de Machine Learn para prever o preço de fechamento de ações na Bolsa de Valores Brasileira. O trabalho abaixo faz uso de Machine Learn para prever o preço de fechamento de ações na Bolsa de Valores Brasileira. O trabalho abaixo faz uso de Machine Learn para prever o preço de fechamento de ações na Bolsa de Valores Brasileira. \n\n![bolsa valores.png](https://res.cloudinary.com/dfdc4nxzz/image/upload/v1696185433/bolsa_valores_4ebb701700.png)\n\nO trabalho abaixo faz uso de Machine Learn para prever o preço de fechamento de ações na Bolsa de Valores Brasileira.O trabalho abaixo faz uso de Machine Learn para prever o preço de fechamento de ações na Bolsa de Valores Brasileira O trabalho abaixo faz uso de Machine Learn para prever o preço de fechamento de ações na Bolsa de Valores BrasileiraO trabalho abaixo faz uso de Machine Learn para prever o preço de fechamento de ações na Bolsa de Valores BrasileiraO trabalho abaixo faz uso de Machine Learn para prever o preço de fechamento de ações na Bolsa de Valores BrasileiraO trabalho abaixo faz uso de Machine Learn para prever o preço de fechamento de ações na Bolsa de Valores BrasileiraO trabalho abaixo faz uso de Machine Learn para prever o preço de fechamento de ações na Bolsa de Valores BrasileiraO trabalho abaixo faz uso de Machine Learn para prever o preço de fechamento de ações na Bolsa de Valores Brasileira\n\n\n```\n{\n  \"name\": \"strapi-blog\",\n  \"private\": true,\n  \"version\": \"0.1.0\",\n  \"description\": \"A Strapi application\",\n  \"scripts\": {\n    \"develop\": \"strapi develop\",\n    \"start\": \"strapi start\",\n    \"build\": \"strapi build\",\n    \"strapi\": \"strapi\",\n    \"postinstall\": \"cd plugins/wysiwyg && npm i\"\n  }\n```",
+            "allowComments": true,
+            "tags": {
+              "data": [
+                {
+                  "id": "4",
+                  "attributes": {
+                    "displayName": "Bolsa de Valores",
+                    "slug": "bolsa-de-valores"
+                  }
+                },
+                {
+                  "id": "3",
+                  "attributes": {
+                    "displayName": "Machine Learn",
+                    "slug": "machine-learn"
+                  }
+                }
+              ]
+            },
+            "cover": {
+              "data": {
+                "id": "2",
+                "attributes": {
+                  "alternativeText": null,
+                  "url": "https://res.cloudinary.com/dfdc4nxzz/image/upload/v1696185433/bolsa_valores_4ebb701700.png"
+                }
+              }
+            },
+            "categories": {
+              "data": [
+                {
+                  "id": "3",
+                  "attributes": {
+                    "displayName": "Python",
+                    "slug": "python"
+                  }
+                },
+                {
+                  "id": "2",
+                  "attributes": {
+                    "displayName": "React",
+                    "slug": "react"
+                  }
+                }
+              ]
+            },
+            "author": {
+              "data": {
+                "id": "1",
+                "attributes": {
+                  "displayName": "Itamar Bernardo",
+                  "slug": "itamar-bernardo"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "2",
+          "attributes": {
+            "slug": "aprendizados-react-e-next-js",
+            "title": "Aprendizados React e Next.js",
+            "excerpt": "Aprendizados no Curso de React pelo programa da Elife Jovens Talentos",
+            "content": "Aprendizados no Curso de React pelo programa da Elife Jovens TalentosAprendizados no Curso de React pelo programa da Elife Jovens TalentosAprendizados no Curso de React pelo programa da Elife Jovens TalentosAprendizados no Curso de React pelo programa da Elife Jovens TalentosAprendizados no Curso de React pelo programa da Elife Jovens TalentosAprendizados no Curso de React pelo programa da Elife Jovens TalentosAprendizados no Curso de React pelo programa da Elife Jovens TalentosAprendizados no Curso de React pelo programa da Elife Jovens Talentos\n![React-icon.svg.png](https://res.cloudinary.com/dfdc4nxzz/image/upload/v1696185897/React_icon_svg_d7b4ef4ea4.png)\n\nAprendizados no Curso de React pelo programa da Elife Jovens TalentosAprendizados no Curso de React pelo programa da Elife Jovens TalentosAprendizados no Curso de React pelo programa da Elife Jovens TalentosAprendizados no Curso de React pelo programa da Elife Jovens TalentosAprendizados no Curso de React pelo programa da Elife Jovens TalentosAprendizados no Curso de React pelo programa da Elife Jovens TalentosAprendizados no Curso de React pelo programa da Elife Jovens TalentosAprendizados no Curso de React pelo programa da Elife Jovens TalentosAprendizados no Curso de React pelo programa da Elife Jovens TalentosAprendizados no Curso de React pelo programa da Elife Jovens TalentosAprendizados no Curso de React pelo programa da Elife Jovens TalentosAprendizados no Curso de React pelo programa da Elife Jovens Talentos\n\n\n```\n{\n  \"name\": \"strapi-blog\",\n  \"private\": true,\n  \"version\": \"0.1.0\",\n  \"description\": \"A Strapi application\",\n  \"scripts\": {\n    \"develop\": \"strapi develop\",\n    \"start\": \"strapi start\",\n    \"build\": \"strapi build\",\n    \"strapi\": \"strapi\",\n    \"postinstall\": \"cd plugins/wysiwyg && npm i\"\n  }\n```",
+            "allowComments": true,
+            "tags": {
+              "data": [
+                {
+                  "id": "2",
+                  "attributes": {
+                    "displayName": "useEffect",
+                    "slug": "use-effect"
+                  }
+                },
+                {
+                  "id": "1",
+                  "attributes": {
+                    "displayName": "useState",
+                    "slug": "use-state"
+                  }
+                }
+              ]
+            },
+            "cover": {
+              "data": {
+                "id": "3",
+                "attributes": {
+                  "alternativeText": null,
+                  "url": "https://res.cloudinary.com/dfdc4nxzz/image/upload/v1696185897/React_icon_svg_d7b4ef4ea4.png"
+                }
+              }
+            },
+            "categories": {
+              "data": [
+                {
+                  "id": "2",
+                  "attributes": {
+                    "displayName": "React",
+                    "slug": "react"
+                  }
+                },
+                {
+                  "id": "1",
+                  "attributes": {
+                    "displayName": "JavaScript",
+                    "slug": "java-script"
+                  }
+                }
+              ]
+            },
+            "author": {
+              "data": {
+                "id": "1",
+                "attributes": {
+                  "displayName": "Itamar Bernardo",
+                  "slug": "itamar-bernardo"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
