@@ -26,6 +26,7 @@
         {
           "id": "1",
           "attributes": {
+            "createdAt": "2020-04-20",
             "slug": "previsao-de-preco-de-acoes-na-b3",
             "title": "Previsão de Preço de Ações na B3",
             "excerpt": "O trabalho abaixo faz uso de Machine Learn para prever o preço de fechamento de ações na Bolsa de Valores Brasileira",
@@ -90,6 +91,7 @@
         {
           "id": "2",
           "attributes": {
+            "createdAt": "1503-12-25",
             "slug": "aprendizados-react-e-next-js",
             "title": "Aprendizados React e Next.js",
             "excerpt": "Aprendizados no Curso de React pelo programa da Elife Jovens Talentos",
