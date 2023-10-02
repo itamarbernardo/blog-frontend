@@ -1,6 +1,6 @@
 import { Meta, Story } from '@storybook/react/types-6-0';
 import { ArticleHeader, ArticleHeaderProps } from '.';
-
+import React from 'react';
 import mock from './mock';
 
 export default {

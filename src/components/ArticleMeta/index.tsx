@@ -2,6 +2,7 @@ import { Author } from '../../shared-typed/author';
 import { Category } from '../../shared-typed/category';
 import { formatDate } from '../../utils/format-date';
 import * as Styled from './styles';
+import React from 'react';
 
 export type ArticleMetaProps = {
   createdAt: string;

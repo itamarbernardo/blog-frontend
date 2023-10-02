@@ -4,6 +4,7 @@ import { StrapiImage } from '../../shared-typed/strapi-image';
 import { ArticleMeta } from '../ArticleMeta';
 import { Heading } from '../Heading';
 import * as Styled from './styles';
+import React from 'react';
 
 export type ArticleHeaderProps = {
   id: string;
