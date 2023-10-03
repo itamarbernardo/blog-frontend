@@ -1,5 +1,37 @@
-import Home from 'templates/Home';
+import Head from 'next/head';
+import { GetStaticProps } from 'next';
+import { loadPosts, StrapiPostAndSettings } from '../api/load-posts';
+import { PostsTemplate } from '../templates/PostsTemplate';
 
-export default function Index() {
-  return <Home />;
+export default function Index({ posts, setting }: StrapiPostAndSettings) {
+  console.log('SETTINGS DENTRO:', setting);
+  return (
+    <>
+      <Head>
+        <title>
+          {setting.attributes.blogName} - {setting.attributes.blogDescription}
+        </title>
+        <meta name="description" content={setting.attributes.blogDescription} />
+      </Head>
+      <PostsTemplate posts={posts} setting={setting} />
+    </>
+  );
 }
+
+export const getStaticProps: GetStaticProps<
+  StrapiPostAndSettings
+> = async () => {
+  const { setting, posts } = await loadPosts();
+
+  if (!posts || !posts.length) {
+    return {
+      notFound: true,
+    };
+  }
+  return {
+    props: {
+      posts: posts,
+      setting: setting,
+    },
+  };
+};

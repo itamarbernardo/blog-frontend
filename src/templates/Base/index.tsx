@@ -7,31 +7,31 @@ import { SettingsStrapi } from '../../shared-types/settings-strapi';
 import * as Styled from './styles';
 
 export type BaseTemplateProps = {
-  settings: SettingsStrapi;
+  setting: SettingsStrapi;
   children: React.ReactNode;
 };
 
-export const BaseTemplate = ({ settings, children }: BaseTemplateProps) => {
+export const BaseTemplate = ({ setting, children }: BaseTemplateProps) => {
   return (
     <Styled.Wrapper>
       <Menu
-        links={settings.attributes.menuLink}
-        blogName={settings.attributes.blogName}
-        logo={settings.attributes.logo.attributes.url}
+        links={setting.attributes.menuLink}
+        blogName={setting.attributes.blogName}
+        logo={setting.attributes.logo.attributes.url}
       />
 
       <Styled.HeaderContainer>
         <Header
-          blogName={settings.attributes.blogName}
-          blogDescription={settings.attributes.blogDescription}
-          logo={settings.attributes.logo.attributes.url}
+          blogName={setting.attributes.blogName}
+          blogDescription={setting.attributes.blogDescription}
+          logo={setting.attributes.logo.attributes.url}
         />
       </Styled.HeaderContainer>
 
       <Styled.ContentContainer>{children}</Styled.ContentContainer>
 
       <Styled.FooterContainer>
-        <Footer footerHtml={settings.attributes.text} />
+        <Footer footerHtml={setting.attributes.text} />
       </Styled.FooterContainer>
 
       <GoTop />

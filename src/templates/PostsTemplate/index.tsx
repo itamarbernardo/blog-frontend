@@ -4,16 +4,14 @@ import { SettingsStrapi } from '../../shared-types/settings-strapi';
 import { BaseTemplate } from '../Base';
 
 export type PostsTemplateProps = {
-  settings: SettingsStrapi;
+  setting: SettingsStrapi;
   posts?: PostStrapi[];
 };
 
-export const PostsTemplate = ({ settings, posts = [] }: PostsTemplateProps) => {
+export const PostsTemplate = ({ setting, posts = [] }: PostsTemplateProps) => {
+  console.log('POSTS TEMPLATE', posts);
   return (
-    <BaseTemplate settings={settings}>
-      <PostGrid posts={posts} />
-      <PostGrid posts={posts} />
-      <PostGrid posts={posts} />
+    <BaseTemplate setting={setting}>
       <PostGrid posts={posts} />
     </BaseTemplate>
   );

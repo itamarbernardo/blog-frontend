@@ -1,12 +1,12 @@
 // import { BaseTemplateProps } from '.';
 import { data } from '../../api/dados.json';
 
-const setting = data.setting.data;
-const { id } = setting;
-const { blogName, blogDescription, menuLink, text } = setting.attributes;
-const logo = setting.attributes.logo.data;
+const settingData = data.setting.data;
+const { id } = settingData;
+const { blogName, blogDescription, menuLink, text } = settingData.attributes;
+const logo = settingData.attributes.logo.data;
 
-const settings = {
+const setting = {
   id,
   attributes: {
     blogName,
@@ -17,4 +17,6 @@ const settings = {
   },
 };
 
-export default { settings, children: 'Olá mundo' };
+console.log('SETTING POST TEMPLATE: ', setting);
+
+export default { setting, children: 'Olá mundo' };
