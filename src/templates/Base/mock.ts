@@ -6,7 +6,6 @@ const { id } = setting;
 const { blogName, blogDescription, menuLink, text } = setting.attributes;
 const logo = setting.attributes.logo.data;
 
-console.log('menu-link:', menuLink);
 const settings = {
   id,
   attributes: {
