@@ -7,13 +7,37 @@
           "blogName": "Blog do Itamar",
           "blogDescription": "Sobre meus aprendizados e Projetos",
           "logo": {
-            "data": null
+            "data": {
+              "id": "3",
+              "attributes": {
+                "alternativeText": "LogoLink",
+                "url": "assets/images/foto_perfil.png"
+              }
+            }
           },
           "menuLink": [
             {
               "id": "1",
               "link": "https://github.com/itamarbernardo",
               "text": "GitHub",
+              "newTab": true
+            },
+            {
+              "id": "2",
+              "link": "https://github.com/itamarbernardo",
+              "text": "Formacao",
+              "newTab": true
+            },
+            {
+              "id": "3",
+              "link": "https://github.com/itamarbernardo",
+              "text": "Jobs",
+              "newTab": true
+            },
+            {
+              "id": "4",
+              "link": "https://github.com/itamarbernardo",
+              "text": "Services",
               "newTab": true
             }
           ],

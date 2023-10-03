@@ -3,7 +3,6 @@ import { PostGrid, PostGridProps } from '.';
 
 import mock from './mock';
 
-console.log(mock);
 export default {
   title: 'PostGrid',
   component: PostGrid,
