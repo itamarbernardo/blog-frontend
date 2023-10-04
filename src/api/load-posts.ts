@@ -21,7 +21,10 @@ export type StrapiPostAndSettings = {
 };
 
 export const loadPosts = async (): Promise<StrapiPostAndSettings> => {
-  const data = await request(config.graphqlURL, GRAPHQL_QUERY);
+  const data: StrapiPostAndSettings = await request(
+    config.graphqlURL,
+    GRAPHQL_QUERY,
+  );
 
   const { setting, posts } = data;
 

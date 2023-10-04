@@ -33,5 +33,6 @@ export const getStaticProps: GetStaticProps<
       posts: posts,
       setting: setting,
     },
+    revalidate: 24 * 60 * 60, //Revalidate de 1d pra ele puxar os dados novamente e gerar a build novamente
   };
 };
