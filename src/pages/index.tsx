@@ -4,7 +4,6 @@ import { loadPosts, StrapiPostAndSettings } from '../api/load-posts';
 import { PostsTemplate } from '../templates/PostsTemplate';
 
 export default function Index({ posts, setting }: StrapiPostAndSettings) {
-  console.log('SETTINGS DENTRO:', setting);
   return (
     <>
       <Head>

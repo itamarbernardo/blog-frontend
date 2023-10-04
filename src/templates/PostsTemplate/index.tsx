@@ -9,7 +9,6 @@ export type PostsTemplateProps = {
 };
 
 export const PostsTemplate = ({ setting, posts = [] }: PostsTemplateProps) => {
-  console.log('POSTS TEMPLATE', posts);
   return (
     <BaseTemplate setting={setting}>
       <PostGrid posts={posts} />

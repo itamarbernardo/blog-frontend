@@ -68,6 +68,5 @@ export const loadPosts = async (): Promise<StrapiPostAndSettings> => {
     };
   });
 
-  console.log('POSTS FORMATADO:', newPosts);
   return { posts: newPosts, setting: settingNew };
 };

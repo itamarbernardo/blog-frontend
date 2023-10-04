@@ -17,6 +17,4 @@ const setting = {
   },
 };
 
-console.log('SETTING POST TEMPLATE: ', setting);
-
 export default { setting, children: 'Olá mundo' };

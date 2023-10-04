@@ -5,6 +5,7 @@ import { Header } from '../../components/Header';
 import { Menu } from '../../components/Menu';
 import { SettingsStrapi } from '../../shared-types/settings-strapi';
 import * as Styled from './styles';
+import { ToggleTheme } from '../../components/ToggleTheme';
 
 export type BaseTemplateProps = {
   setting: SettingsStrapi;
@@ -14,6 +15,7 @@ export type BaseTemplateProps = {
 export const BaseTemplate = ({ setting, children }: BaseTemplateProps) => {
   return (
     <Styled.Wrapper>
+      <ToggleTheme />
       <Menu
         links={setting.attributes.menuLink}
         blogName={setting.attributes.blogName}
